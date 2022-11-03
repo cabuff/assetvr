@@ -1,0 +1,530 @@
+Begin Object Class=/Script/Engine.Material Name="landscape_material"
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionBreakMaterialAttributes Name="MaterialExpressionBreakMaterialAttributes_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_18"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_20"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_21"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFloor Name="MaterialExpressionFloor_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFmod Name="MaterialExpressionFmod_1"
+   End Object
+   Begin Object Class=/Script/Landscape.MaterialExpressionLandscapeGrassOutput Name="MaterialExpressionLandscapeGrassOutput_0"
+   End Object
+   Begin Object Class=/Script/Landscape.MaterialExpressionLandscapeLayerBlend Name="MaterialExpressionLandscapeLayerBlend_1"
+   End Object
+   Begin Object Class=/Script/Landscape.MaterialExpressionLandscapeLayerCoords Name="MaterialExpressionLandscapeLayerCoords_1"
+   End Object
+   Begin Object Class=/Script/Landscape.MaterialExpressionLandscapeLayerSample Name="MaterialExpressionLandscapeLayerSample_0"
+   End Object
+   Begin Object Class=/Script/Landscape.MaterialExpressionLandscapeLayerSample Name="MaterialExpressionLandscapeLayerSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMakeMaterialAttributes Name="MaterialExpressionMakeMaterialAttributes_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMakeMaterialAttributes Name="MaterialExpressionMakeMaterialAttributes_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMakeMaterialAttributes Name="MaterialExpressionMakeMaterialAttributes_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMakeMaterialAttributes Name="MaterialExpressionMakeMaterialAttributes_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_18"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_20"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_21"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_24"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_26"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_27"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_31"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_32"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_33"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_46"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_47"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_48"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_49"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_1"
+      A=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_19"')
+      B=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_21"')
+      MaterialExpressionEditorX=4016
+      MaterialExpressionEditorY=1104
+      MaterialExpressionGuid=A254A3FA4B5B73834E81CB846F12F79F
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_1"
+      A=(Expression=MaterialExpressionFmod'"landscape_material:MaterialExpressionFmod_1"')
+      B=(Expression=MaterialExpressionOneMinus'"landscape_material:MaterialExpressionOneMinus_1"')
+      MaterialExpressionEditorX=3984
+      MaterialExpressionEditorY=1680
+      MaterialExpressionGuid=65345E734DA7E00E6392F3AA0B78AEE6
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionBreakMaterialAttributes_1"
+      MaterialAttributes=(Expression=MaterialExpressionLandscapeLayerBlend'"landscape_material:MaterialExpressionLandscapeLayerBlend_1"')
+      MaterialExpressionEditorX=7088
+      MaterialExpressionEditorY=1056
+      MaterialExpressionGuid=4020B00840B707C012719B9E4D048FD0
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_2"
+      SizeX=288
+      SizeY=272
+      Text="LandscapeLayerSample Nodes"
+      MaterialExpressionEditorX=7840
+      MaterialExpressionEditorY=1248
+      MaterialExpressionGuid=3611F9F44434CDAA9C4D2FB2154E62C9
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_3"
+      SizeX=794
+      SizeY=795
+      Text="avoid pattern repetition"
+      MaterialExpressionEditorX=3518
+      MaterialExpressionEditorY=1054
+      MaterialExpressionGuid=BB38285C4B9F6F8B546847A3363407F6
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=0.700000
+      MaterialExpressionEditorX=5104
+      MaterialExpressionEditorY=848
+      MaterialExpressionGuid=32192CF44A3E35420465B29D8FC23723
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_11"
+      R=0.700000
+      MaterialExpressionEditorX=5184
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=32192CF44A3E35420465B29D8FC23723
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_14"
+      R=0.250000
+      MaterialExpressionEditorX=5168
+      MaterialExpressionEditorY=1712
+      MaterialExpressionGuid=32192CF44A3E35420465B29D8FC23723
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_18"
+      R=0.900000
+      MaterialExpressionEditorX=5168
+      MaterialExpressionEditorY=2384
+      MaterialExpressionGuid=32192CF44A3E35420465B29D8FC23723
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_19"
+      R=2.000000
+      MaterialExpressionEditorX=3696
+      MaterialExpressionEditorY=1728
+      MaterialExpressionGuid=46FD212C4ACBB269006EDBACA93F9CF3
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_20"
+      R=0.100000
+      MaterialExpressionEditorX=3568
+      MaterialExpressionEditorY=1200
+      MaterialExpressionGuid=CD8C029047E01EA730A6F4A886BF63E1
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_21"
+      R=4.000000
+      MaterialExpressionEditorX=3664
+      MaterialExpressionEditorY=1600
+      MaterialExpressionGuid=14BCBA8C4C080948F97C3199BC5FD7E2
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionDivide_1"
+      A=(Expression=MaterialExpressionFloor'"landscape_material:MaterialExpressionFloor_1"')
+      B=(Expression=MaterialExpressionConstant'"landscape_material:MaterialExpressionConstant_21"')
+      MaterialExpressionEditorX=3984
+      MaterialExpressionEditorY=1520
+      MaterialExpressionGuid=D1E840A04A400E06133CAFA5216EAB3F
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionFloor_1"
+      Input=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_20"')
+      MaterialExpressionEditorX=3824
+      MaterialExpressionEditorY=1520
+      MaterialExpressionGuid=66BAA77548D63993979E27A119235188
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionFmod_1"
+      A=(Expression=MaterialExpressionFloor'"landscape_material:MaterialExpressionFloor_1"')
+      B=(Expression=MaterialExpressionConstant'"landscape_material:MaterialExpressionConstant_19"')
+      MaterialExpressionEditorX=3776
+      MaterialExpressionEditorY=1664
+      MaterialExpressionGuid=014F235E44267646F935A0918C3F40AF
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionLandscapeGrassOutput_0"
+      GrassTypes(0)=(Name="a1",GrassType=LandscapeGrassType'"/Game/Stein/Level2/GrassTypes/GrassType_T1.GrassType_T1"',Input=(Expression=MaterialExpressionLandscapeLayerSample'"landscape_material:MaterialExpressionLandscapeLayerSample_0"'))
+      GrassTypes(1)=(Name="a2",GrassType=LandscapeGrassType'"/Game/Stein/Level2/GrassTypes/GrassType_T2_v1.GrassType_T2_v1"',Input=(Expression=MaterialExpressionLandscapeLayerSample'"landscape_material:MaterialExpressionLandscapeLayerSample_1"'))
+      MaterialExpressionEditorX=8208
+      MaterialExpressionEditorY=1328
+      MaterialExpressionGuid=09931F494C3CB458E902C2A18BFB747B
+      Material=Material'"landscape_material"'
+      Desc="LandscapeGrassOutput Node"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionLandscapeLayerBlend_1"
+      Layers(0)=(LayerName="T0",BlendType=LB_AlphaBlend,LayerInput=(Expression=MaterialExpressionMakeMaterialAttributes'"landscape_material:MaterialExpressionMakeMaterialAttributes_0"'))
+      Layers(1)=(LayerName="T1",LayerInput=(Expression=MaterialExpressionMakeMaterialAttributes'"landscape_material:MaterialExpressionMakeMaterialAttributes_1"'))
+      Layers(2)=(LayerName="T2",LayerInput=(Expression=MaterialExpressionMakeMaterialAttributes'"landscape_material:MaterialExpressionMakeMaterialAttributes_11"'))
+      Layers(3)=(LayerName="T3",LayerInput=(Expression=MaterialExpressionMakeMaterialAttributes'"landscape_material:MaterialExpressionMakeMaterialAttributes_15"'))
+      MaterialExpressionEditorX=6816
+      MaterialExpressionEditorY=1024
+      MaterialExpressionGuid=68CD4865477E9978B57FF987945CF750
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionLandscapeLayerCoords_1"
+      MaterialExpressionEditorX=3040
+      MaterialExpressionEditorY=864
+      MaterialExpressionGuid=C26538AE4497C26F42E87493808C99F1
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionLandscapeLayerSample_0"
+      ParameterName="T1"
+      MaterialExpressionEditorX=7920
+      MaterialExpressionEditorY=1328
+      MaterialExpressionGuid=C3D92EAA4EF5BFE352C4869B2778523B
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionLandscapeLayerSample_1"
+      ParameterName="T2"
+      MaterialExpressionEditorX=7920
+      MaterialExpressionEditorY=1424
+      MaterialExpressionGuid=6890DB1D4527DDC706F085BAB6A1DB9A
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionMakeMaterialAttributes_0"
+      BaseColor=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_24"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Roughness=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_27"',OutputIndex=2,Mask=1,MaskG=1)
+      Normal=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_26"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      AmbientOcclusion=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_27"',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=5968
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=372D4779456026471DFC268E6F4F3AA8
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionMakeMaterialAttributes_1"
+      BaseColor=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Roughness=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_2"',OutputIndex=2,Mask=1,MaskG=1)
+      Normal=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      AmbientOcclusion=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_2"',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=5968
+      MaterialExpressionEditorY=560
+      MaterialExpressionGuid=372D4779456026471DFC268E6F4F3AA8
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionMakeMaterialAttributes_11"
+      BaseColor=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_31"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Roughness=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_33"',OutputIndex=2,Mask=1,MaskG=1)
+      Normal=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_32"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      AmbientOcclusion=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_33"',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=5968
+      MaterialExpressionEditorY=1264
+      MaterialExpressionGuid=372D4779456026471DFC268E6F4F3AA8
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionMakeMaterialAttributes_15"
+      BaseColor=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_46"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Roughness=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_48"',OutputIndex=2,Mask=1,MaskG=1)
+      Normal=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_47"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      AmbientOcclusion=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_48"',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=5968
+      MaterialExpressionEditorY=1984
+      MaterialExpressionGuid=372D4779456026471DFC268E6F4F3AA8
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionAdd'"landscape_material:MaterialExpressionAdd_1"')
+      B=(Expression=MaterialExpressionConstant'"landscape_material:MaterialExpressionConstant_1"')
+      MaterialExpressionEditorX=5232
+      MaterialExpressionEditorY=720
+      MaterialExpressionGuid=936BC2A14CE90B2144A00FA35B4E7BE9
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_10"
+      A=(Expression=MaterialExpressionAdd'"landscape_material:MaterialExpressionAdd_1"')
+      B=(Expression=MaterialExpressionConstant'"landscape_material:MaterialExpressionConstant_11"')
+      MaterialExpressionEditorX=5328
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=936BC2A14CE90B2144A00FA35B4E7BE9
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_14"
+      A=(Expression=MaterialExpressionAdd'"landscape_material:MaterialExpressionAdd_1"')
+      B=(Expression=MaterialExpressionConstant'"landscape_material:MaterialExpressionConstant_14"')
+      MaterialExpressionEditorX=5360
+      MaterialExpressionEditorY=1504
+      MaterialExpressionGuid=936BC2A14CE90B2144A00FA35B4E7BE9
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_18"
+      A=(Expression=MaterialExpressionAdd'"landscape_material:MaterialExpressionAdd_1"')
+      B=(Expression=MaterialExpressionConstant'"landscape_material:MaterialExpressionConstant_18"')
+      MaterialExpressionEditorX=5360
+      MaterialExpressionEditorY=2176
+      MaterialExpressionGuid=936BC2A14CE90B2144A00FA35B4E7BE9
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_19"
+      A=(Expression=MaterialExpressionLandscapeLayerCoords'"landscape_material:MaterialExpressionLandscapeLayerCoords_1"')
+      B=(Expression=MaterialExpressionConstant'"landscape_material:MaterialExpressionConstant_20"')
+      ConstB=0.800000
+      MaterialExpressionEditorX=3648
+      MaterialExpressionEditorY=1104
+      MaterialExpressionGuid=2E0493AF45BC7C04176F6884282403AD
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_20"
+      A=(Expression=MaterialExpressionTextureSample'"landscape_material:MaterialExpressionTextureSample_49"',OutputIndex=2,Mask=1,MaskG=1)
+      B=(Expression=MaterialExpressionConstant'"landscape_material:MaterialExpressionConstant_21"')
+      MaterialExpressionEditorX=3856
+      MaterialExpressionEditorY=1392
+      MaterialExpressionGuid=7D15E3504AE4FB540C5715B83BE4FC0A
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_21"
+      A=(Expression=MaterialExpressionDivide'"landscape_material:MaterialExpressionDivide_1"')
+      B=(Expression=MaterialExpressionAppendVector'"landscape_material:MaterialExpressionAppendVector_1"')
+      MaterialExpressionEditorX=4112
+      MaterialExpressionEditorY=1584
+      MaterialExpressionGuid=4B0B22844CEE8F26CB59719B8CB40EBE
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_1"
+      Input=(Expression=MaterialExpressionFmod'"landscape_material:MaterialExpressionFmod_1"')
+      MaterialExpressionEditorX=3888
+      MaterialExpressionEditorY=1728
+      MaterialExpressionGuid=580D12FD4D7049EFDE7DDDBBD3711D17
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Coordinates=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_1"')
+      Texture=Texture2D'"/Game/Megascans/Surfaces/Windswept_Sand_vmkdcgl/T_Windswept_Sand_vmkdcgl_2K_D.T_Windswept_Sand_vmkdcgl_2K_D"'
+      MaterialExpressionEditorX=5616
+      MaterialExpressionEditorY=464
+      MaterialExpressionGuid=58DF91FD4E5B026F943906B05515C046
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Coordinates=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_1"')
+      Texture=Texture2D'"/Game/Megascans/Surfaces/Windswept_Sand_vmkdcgl/T_Windswept_Sand_vmkdcgl_2K_N.T_Windswept_Sand_vmkdcgl_2K_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=5616
+      MaterialExpressionEditorY=688
+      MaterialExpressionGuid=6FE87899464905884D8F5D85535EAF7F
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Coordinates=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_1"')
+      Texture=Texture2D'"/Game/Megascans/Surfaces/Windswept_Sand_vmkdcgl/T_WindsweptSand_vmkdcgl_2K_ORDp.T_WindsweptSand_vmkdcgl_2K_ORDp"'
+      SamplerType=SAMPLERTYPE_Masks
+      MaterialExpressionEditorX=5616
+      MaterialExpressionEditorY=912
+      MaterialExpressionGuid=FC84F4954536A57EB1AC0BAD303FDD5C
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_24"
+      Coordinates=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_10"')
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'"/Game/Megascans/Surfaces/Beach_Sand_vletdha/T_Beach_Sand_vletdha_2K_D.T_Beach_Sand_vletdha_2K_D"'
+      MaterialExpressionEditorX=5616
+      MaterialExpressionEditorY=-272
+      MaterialExpressionGuid=9E3B040C4BD001CF37EC05844F7D806C
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_26"
+      Coordinates=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_10"')
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'"/Game/Megascans/Surfaces/Beach_Sand_vletdha/T_Beach_Sand_vletdha_2K_N.T_Beach_Sand_vletdha_2K_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=5616
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=A4824C824B44A1FD1C3D4F966E14805A
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_27"
+      Coordinates=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_10"')
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'"/Game/Megascans/Surfaces/Beach_Sand_vletdha/T_BeachSand_vletdha_2K_ORDp.T_BeachSand_vletdha_2K_ORDp"'
+      SamplerType=SAMPLERTYPE_Masks
+      MaterialExpressionEditorX=5616
+      MaterialExpressionEditorY=208
+      MaterialExpressionGuid=023DD379412CE248E0878BBF2A12D5A4
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_31"
+      Coordinates=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_14"')
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'"/Game/Megascans/Surfaces/Muddy_Soil_sinkcdda/T_Muddy_Soil_sinkcdda_2K_D.T_Muddy_Soil_sinkcdda_2K_D"'
+      MaterialExpressionEditorX=5616
+      MaterialExpressionEditorY=1168
+      MaterialExpressionGuid=2A692F834D344B25659E9D8883691E40
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_32"
+      Coordinates=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_14"')
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'"/Game/Megascans/Surfaces/Muddy_Soil_sinkcdda/T_Muddy_Soil_sinkcdda_2K_N.T_Muddy_Soil_sinkcdda_2K_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=5616
+      MaterialExpressionEditorY=1408
+      MaterialExpressionGuid=2B0C47E943530BFD22CE5D9D3E4E1679
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_33"
+      Coordinates=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_14"')
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'"/Game/Megascans/Surfaces/Muddy_Soil_sinkcdda/T_MuddySoil_sinkcdda_2K_ORDp.T_MuddySoil_sinkcdda_2K_ORDp"'
+      SamplerType=SAMPLERTYPE_Masks
+      MaterialExpressionEditorX=5616
+      MaterialExpressionEditorY=1648
+      MaterialExpressionGuid=78F2600F41A7AAD2A0DFFB87CD4840F4
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_46"
+      Coordinates=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_18"')
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'"/Game/Megascans/Surfaces/Seaweed_ueonafrn/T_Seaweed_ueonafrn_2K_D.T_Seaweed_ueonafrn_2K_D"'
+      MaterialExpressionEditorX=5616
+      MaterialExpressionEditorY=1904
+      MaterialExpressionGuid=E37148DF4F41C3628D0BAD9CB2B8D4AD
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_47"
+      Coordinates=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_18"')
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'"/Game/Megascans/Surfaces/Seaweed_ueonafrn/T_Seaweed_ueonafrn_2K_N.T_Seaweed_ueonafrn_2K_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=5616
+      MaterialExpressionEditorY=2144
+      MaterialExpressionGuid=1A9C5B1149B361336AAA019699564E0D
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_48"
+      Coordinates=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_18"')
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'"/Game/Megascans/Surfaces/Seaweed_ueonafrn/T_Seaweed_ueonafrn_2K_ORDp.T_Seaweed_ueonafrn_2K_ORDp"'
+      SamplerType=SAMPLERTYPE_Masks
+      MaterialExpressionEditorX=5616
+      MaterialExpressionEditorY=2384
+      MaterialExpressionGuid=636811174EC427F32E17D7BAEEC6F6F8
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_49"
+      Coordinates=(Expression=MaterialExpressionMultiply'"landscape_material:MaterialExpressionMultiply_19"')
+      Texture=Texture2D'"/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M"'
+      SamplerType=SAMPLERTYPE_Masks
+      MaterialExpressionEditorX=3600
+      MaterialExpressionEditorY=1296
+      MaterialExpressionGuid=E8FDCD674B6B1B9C81276E977080A977
+      Material=Material'"landscape_material"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionBreakMaterialAttributes'"MaterialExpressionBreakMaterialAttributes_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionBreakMaterialAttributes'"MaterialExpressionBreakMaterialAttributes_1"',OutputIndex=3,Mask=1,MaskR=1)
+   Normal=(Expression=MaterialExpressionBreakMaterialAttributes'"MaterialExpressionBreakMaterialAttributes_1"',OutputIndex=8,Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   AmbientOcclusion=(Expression=MaterialExpressionBreakMaterialAttributes'"MaterialExpressionBreakMaterialAttributes_1"',OutputIndex=14,Mask=1,MaskR=1)
+   EditorX=7504
+   EditorY=1072
+   Expressions(0)=MaterialExpressionBreakMaterialAttributes'"MaterialExpressionBreakMaterialAttributes_1"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_24"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_26"'
+   Expressions(3)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_27"'
+   Expressions(4)=MaterialExpressionMultiply'"MaterialExpressionMultiply_10"'
+   Expressions(5)=MaterialExpressionConstant'"MaterialExpressionConstant_11"'
+   Expressions(6)=MaterialExpressionLandscapeLayerBlend'"MaterialExpressionLandscapeLayerBlend_1"'
+   Expressions(7)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_31"'
+   Expressions(8)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_32"'
+   Expressions(9)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_33"'
+   Expressions(10)=MaterialExpressionMultiply'"MaterialExpressionMultiply_14"'
+   Expressions(11)=MaterialExpressionConstant'"MaterialExpressionConstant_14"'
+   Expressions(12)=MaterialExpressionMakeMaterialAttributes'"MaterialExpressionMakeMaterialAttributes_11"'
+   Expressions(13)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_46"'
+   Expressions(14)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_47"'
+   Expressions(15)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_48"'
+   Expressions(16)=MaterialExpressionMakeMaterialAttributes'"MaterialExpressionMakeMaterialAttributes_15"'
+   Expressions(17)=MaterialExpressionMultiply'"MaterialExpressionMultiply_18"'
+   Expressions(18)=MaterialExpressionConstant'"MaterialExpressionConstant_18"'
+   Expressions(19)=MaterialExpressionMultiply'"MaterialExpressionMultiply_19"'
+   Expressions(20)=MaterialExpressionLandscapeLayerCoords'"MaterialExpressionLandscapeLayerCoords_1"'
+   Expressions(21)=MaterialExpressionMultiply'"MaterialExpressionMultiply_20"'
+   Expressions(22)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_49"'
+   Expressions(23)=MaterialExpressionFloor'"MaterialExpressionFloor_1"'
+   Expressions(24)=MaterialExpressionDivide'"MaterialExpressionDivide_1"'
+   Expressions(25)=MaterialExpressionFmod'"MaterialExpressionFmod_1"'
+   Expressions(26)=MaterialExpressionConstant'"MaterialExpressionConstant_19"'
+   Expressions(27)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_1"'
+   Expressions(28)=MaterialExpressionOneMinus'"MaterialExpressionOneMinus_1"'
+   Expressions(29)=MaterialExpressionMultiply'"MaterialExpressionMultiply_21"'
+   Expressions(30)=MaterialExpressionAdd'"MaterialExpressionAdd_1"'
+   Expressions(31)=MaterialExpressionConstant'"MaterialExpressionConstant_20"'
+   Expressions(32)=MaterialExpressionConstant'"MaterialExpressionConstant_21"'
+   Expressions(33)=MaterialExpressionLandscapeGrassOutput'"MaterialExpressionLandscapeGrassOutput_0"'
+   Expressions(34)=MaterialExpressionLandscapeLayerSample'"MaterialExpressionLandscapeLayerSample_0"'
+   Expressions(35)=MaterialExpressionLandscapeLayerSample'"MaterialExpressionLandscapeLayerSample_1"'
+   Expressions(36)=MaterialExpressionMakeMaterialAttributes'"MaterialExpressionMakeMaterialAttributes_0"'
+   Expressions(37)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(38)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(39)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(40)=MaterialExpressionMakeMaterialAttributes'"MaterialExpressionMakeMaterialAttributes_1"'
+   Expressions(41)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   Expressions(42)=MaterialExpressionConstant'"MaterialExpressionConstant_1"'
+   EditorComments(0)=MaterialExpressionComment'"MaterialExpressionComment_2"'
+   EditorComments(1)=MaterialExpressionComment'"MaterialExpressionComment_3"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=C9886EF242EF3915841E72A53986FC28
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=7DF62A0843BCEC686633D88C7194A582
+End Object
